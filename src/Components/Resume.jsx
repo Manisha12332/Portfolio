@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Sidebar from "./Sidebar";
-import "./CSS/Resume.css";
-import "./CSS/Responsive.css";
+import "./css/Resume.css";
+import "./css/Responsive.css";
 
 const Resume = () => {
   const [showMenu, setShowMenu] = useState(false);

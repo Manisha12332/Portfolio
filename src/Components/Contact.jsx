@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Sidebar from "./Sidebar";
-import "./CSS/Contact.css";
-import "./CSS/Responsive.css";
+import "./css/Contact.css";
+import "./css/Responsive.css";
 
 const Contact = () => {
   const [showMenu, setShowMenu] = useState(false);

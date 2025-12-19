@@ -3,9 +3,9 @@ import { TypeAnimation } from "react-type-animation";
 import Sidebar from "./Sidebar";
 import ProjectCard from "./ProjectCard";
 
-import "./CSS/HeroSection.css";
-import "./CSS/Sidebar.css";
-import "./CSS/Responsive.css";
+import "./css/HeroSection.css";
+import "./css/Sidebar.css";
+import "./css/Responsive.css";
 
 import profileImage from "../assets/images/pro.jpeg";
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Sidebar from "./Sidebar";
-import "./CSS/Portfolio.css";
-import "./CSS/Responsive.css";
+import "./css/Portfolio.css";
+import "./css/Responsive.css";
 import ProjectCard from "./ProjectCard";
 
 const Portfolio = () => {

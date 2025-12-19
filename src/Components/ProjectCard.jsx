@@ -4,7 +4,7 @@ import projectImg2 from "../assets/images/Project2.png";
 import projectImg3 from "../assets/images/Project3.png";
 import projectImg4 from "../assets/images/Project4.png";
 import projectImg5 from "../assets/images/Project5.png";
-import "./CSS/HeroSection.css";
+import "./css/HeroSection.css";
 
 
 // Project data
