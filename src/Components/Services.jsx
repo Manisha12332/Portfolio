@@ -11,7 +11,7 @@ const Services = () => {
     <>
       {/* ===== MOBILE HEADER ===== */}
       <div className="mobile-header">
-        <h3 className="mobile-logo">Manisha</h3>
+        <h3 className="mobile-logo">Manishaa</h3>
         <button
           className="hamburger-btn"
           onClick={() => {
