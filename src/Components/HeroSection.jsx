@@ -17,7 +17,7 @@ const HeroSection = () => {
     <>
       {/* ===== MOBILE HEADER ===== */}
       <div className="mobile-header">
-        <h3 className="mobile-logo">Manisha jjjjjj</h3>
+        <h3 className="mobile-logo">Manisha</h3>
         <button
           className="hamburger-btn"
           onClick={() => {
