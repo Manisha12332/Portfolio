@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Sidebar from "./Sidebar";
-import "./css/Services.css";
+import "./css/Services.css";     // change CSS to css
 import "./css/Sidebar.css";
 import "./css/Responsive.css";
 

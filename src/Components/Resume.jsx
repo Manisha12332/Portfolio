@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Sidebar from "./Sidebar";
-import "./css/Resume.css";
+import "./css/Resume.css";       // change CSS to css
 import "./css/Responsive.css";
 
 const Resume = () => {

@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import Sidebar from "./Sidebar";
 import ProjectCard from "./ProjectCard";
 
-import "./css/HeroSection.css";
+import "./css/HeroSection.css";  // change CSS to css
 import "./css/Sidebar.css";
 import "./css/Responsive.css";
 

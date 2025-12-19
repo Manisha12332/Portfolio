@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Sidebar from "./Sidebar";
-import "./css/Contact.css";
+import "./css/Contact.css";      // change CSS to css
 import "./css/Responsive.css";
 
 const Contact = () => {

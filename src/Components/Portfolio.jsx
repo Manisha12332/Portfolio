@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Sidebar from "./Sidebar";
-import "./css/Portfolio.css";
+import "./css/Portfolio.css";    // change CSS to css
 import "./css/Responsive.css";
 import ProjectCard from "./ProjectCard";
 
