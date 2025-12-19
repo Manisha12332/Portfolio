@@ -1,0 +1,119 @@
+.best-projects-section {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.best-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.best-description {
+  font-size: 1.05rem;
+  color: #555;
+  max-width: 750px;
+  text-align: center !important;
+  margin: 0 auto 30px auto !important;
+  line-height: 1.6;
+}
+
+/* Hire Me Button */
+.hire-btn {
+  background: linear-gradient(90deg, #4f7df0, #687bff);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.hire-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.hire-icon {
+  margin-right: 5px;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  gap: 20px;
+  justify-items: center;
+}
+.hire-popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.hire-popup-box {
+  background: #ffffff;
+  width: 420px;
+  padding: 30px;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.hire-popup-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  border: none;
+  background: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.hire-popup-title {
+  margin-bottom: 6px;
+  color: #1f2937;
+}
+
+.hire-popup-text {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 18px;
+}
+
+.hire-popup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.hire-popup-input,
+.hire-popup-textarea {
+  width: 94%;
+  padding: 11px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+.hire-popup-submit {
+  padding: 12px;
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.hire-popup-submit:hover {
+  background: #4338ca;
+}

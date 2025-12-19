@@ -1,0 +1,149 @@
+.services-section {
+  padding: 80px 40px;
+  background: #f7f9fc;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Header */
+.services-header {
+  text-align: center;
+}
+
+.services-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0px;
+}
+
+.services-header p {
+  font-size: 18px;
+  color: #6b7280;
+  margin-top: 10px;
+}
+
+.services-header .line {
+  display: inline-block;
+  width: 60px;
+  height: 3px;
+  background: #2563eb;
+  margin-top: 15px;
+}
+
+/* Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+/* Card */
+.service-card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px 25px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Icon */
+.icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.blue {
+  background: #e0ecff;
+}
+
+.purple {
+  background: #ede9fe;
+}
+
+.green {
+  background: #e6f7ed;
+}
+
+.yellow {
+  background: #fff4e5;
+}
+
+/* Text */
+.service-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #111827;
+}
+
+.service-card p {
+  font-size: 15px;
+  color: #6b7280;
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+
+/* List */
+.service-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.service-card ul li {
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+.service-card ul li::before {
+  content: "✔";
+  color: #22c55e;
+  margin-right: 8px;
+}
+
+/* Button */
+.service-card button {
+  background: linear-gradient(90deg, #2563eb, #4f46e5);
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.service-card button:hover {
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.services-section {
+  margin-left: 243px;
+  padding: 40px;
+  width: 100%;
+}

@@ -1,0 +1,110 @@
+.sidebar {
+  width: 210px;
+  height: 100vh; /* Full height of viewport */
+  background-color: #b5bbc130;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  overflow: hidden; /* Prevent internal scrollbar */
+  position: fixed; /* Optional: to keep it fixed on scroll */
+  top: 0;
+  left: 0;
+}
+
+.profileImg {
+  width: 107px;
+  border: 1px solid blue;
+  height: 107px;
+  border-radius: 64px;
+  overflow: hidden;
+  margin: 0 auto 20px;
+  box-shadow: 0 2px 8px rgb(2 143 201);
+}
+
+.profileImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.titlee {
+  margin: 10px 0 5px;
+  font-size: 21px;
+  color: #333;
+}
+
+.jobprofile {
+  font-size: 17px;
+  font-weight: 500;
+  color: #736f6f;
+  margin: 0px;
+}
+
+.socialicons {
+  display: flex;
+  justify-content: center;
+  gap: 11px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.socialicons i {
+  color: #0000ff9c;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #8a8a8e57;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 6px 4px;
+}
+
+.socialicons i:hover {
+  color: #0077b5; /* e.g., LinkedIn blue on hover */
+}
+
+.line {
+  border: none;
+  height: 1px;
+  background-color: #b2b2b67d;
+  margin: 23px 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 3px;
+  width: 100%;
+  border-radius: 8px;
+  color: #333;
+  text-decoration: none;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.menu-item i {
+  font-size: 18px;
+  color: #555;
+}
+
+.menu-item:hover {
+  background-color: #f0f0ff;
+  color: #1a1a90;
+}
+
+.menu-item.active {
+  background-color: #4d69fa;
+  color: white;
+}
+
+.menu-item.active i {
+  color: white;
+}

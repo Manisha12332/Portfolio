@@ -1,0 +1,145 @@
+/* Wrapper */
+.resume-wrapper {
+  display: flex;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Container beside sidebar */
+.resume-container {
+  margin-left: 244px; /* sidebar width */
+  padding: 40px;
+  width: 100%;
+  background: #e5e7eb;
+}
+
+/* ONE SINGLE PAGE */
+.resume-page {
+  max-width: 900px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Header */
+.resume-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.resume-header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  color: #1f2937;
+}
+
+.role {
+  font-size: 1.1rem;
+  color: #0e0e0e;
+  margin: 6px 0;
+}
+
+.contact {
+  font-size: 0.95rem;
+  color: #0e0e0e;
+  margin: 12px;
+}
+
+/* Sections */
+.resume-section {
+  margin-bottom: 25px;
+}
+
+.resume-section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  border-left: 4px solid #4f46e5;
+  padding-left: 10px;
+  color: #1f2937;
+}
+
+.resume-section p,
+.resume-section li {
+  font-size: 0.95rem;
+  color: #374151;
+  line-height: 1.6;
+}
+
+/* Skills */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-grid span {
+  background: #e0e7ff;
+  color: #3730a3;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+/* Experience */
+.company {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.resume-section ul {
+  padding-left: 18px;
+}
+
+
+/* Projects */
+.project-item {
+  margin-bottom: 22px;
+}
+
+.project-item h3 {
+  font-size: 1.1rem;
+  color: #111827;
+  margin-bottom: 6px;
+}
+
+.project-item ul {
+  padding-left: 18px;
+}
+
+.project-item li {
+  font-size: 0.95rem;
+  color: #374151;
+  line-height: 1.6;
+  margin-bottom: 4px;
+}
+
+.project-item a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
+}
+/* Education */
+.education-item {
+  margin-bottom: 18px;
+}
+
+.education-item h3 {
+  font-size: 1.05rem;
+  color: #111827;
+  margin-bottom: 6px;
+}
+
+.education-item ul {
+  padding-left: 18px;
+}
+
+.education-item li {
+  font-size: 0.95rem;
+  color: #374151;
+  line-height: 1.6;
+}

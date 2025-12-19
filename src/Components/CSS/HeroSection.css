@@ -1,0 +1,397 @@
+.hero-section {
+  text-align: right;
+  padding: 40px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  text-align: left;
+  color: #4c6ef5;
+  margin: 10px 21px;
+}
+
+.hero-section p {
+  margin: 10px 21px;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.hero-section a {
+  text-decoration: none;
+  color: #1168bb;
+  font-weight: 500;
+}
+
+.buttons a {
+  color: white;
+}
+
+.buttons {
+  margin: 37px 8px;
+  text-align: left;
+}
+
+.portfolio-btn,
+.resume-btn {
+  padding: 12px 24px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.portfolio-btn {
+  background-color: #4c6ef5;
+  color: white;
+}
+
+.resume-btn {
+  background-color: #4c6ef5;
+  color: white;
+}
+
+.stats {
+  display: flex;
+  justify-content: start;
+  gap: 45px;
+}
+
+.stats div {
+  text-align: center;
+}
+
+.stats h2 {
+  color: #4c6ef5;
+  font-size: 47px;
+  margin: 0px;
+}
+
+.mainnn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /* Ensures mobile responsiveness */
+}
+
+.first {
+  min-width: 300px;
+  padding-right: 20px;
+}
+
+.second {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  width: 250px;
+}
+
+.second img {
+  width: 279px;
+  height: 279px;
+  border-radius: 0px;
+  margin-top: 56px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.what-i-do-section {
+  margin-top: 60px;
+  padding-right: 40px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  text-align: left;
+  margin-left: 21px;
+  padding-left: 10px;
+  border-left: 4px solid #4f46e5;
+  /* Blue line */
+}
+
+.section-description {
+  margin-top: 15px;
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 800px;
+  color: #333;
+}
+
+.section-description a {
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+.section-description a:hover {
+  text-decoration: underline;
+}
+
+.portfolio-btnn {
+  background-color: #4f46e5;
+  color: white;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.3s ease;
+}
+
+.portfolio-btnn:hover {
+  background-color: #4338ca;
+}
+
+.project-gallery {
+  margin-top: 50px;
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-left: 12px;
+}
+
+.project-card {
+  width: 100%;
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: all 0.3s ease;
+  background-color: white;
+}
+
+.project-image {
+  width: 500px;
+  height: 241px;
+}
+
+.project-details {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #444;
+  padding: 10px 0;
+}
+
+.project-tags {
+  margin: 10px 11px;
+  text-align: left;
+}
+
+.tag {
+  display: inline-block;
+  background: #eee;
+  color: #333;
+  font-size: 0.75rem;
+  padding: 5px 10px;
+  border-radius: 50px;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.project-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 5px;
+  text-align: left;
+  margin-left: 11px;
+}
+
+.toggle-btn {
+  background-color: #4f46e5;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/*Get in touch*/
+.work-together-section {
+  background-image: url("https://img.freepik.com/free-vector/abstract-black-lines-geometric-background_677411-2748.jpg");
+  padding: 60px 20px;
+  margin: 50px 0;
+  border-radius: 12px;
+}
+
+.work-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: start;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.work-description {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  color: #cfcfcf;
+}
+
+/* Circle View Details Button */
+.circle-btn {
+  position: absolute;
+  top: 2px;
+  right: 3px;
+  width: 58px;
+  height: 55px;
+  border-radius: 50%;
+  background: #fff;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  color: #2563eb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #ddcf21;
+  line-height: 1.2;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  border: 1px solid rgb(131, 131, 230);
+}
+
+.arrow-icon {
+  position: absolute;
+  bottom: 12px;
+  right: 8px;
+  font-size: 18px;
+  color: black;
+  background: #80808033;
+  cursor: pointer;
+  border-radius: 18px;
+  padding: 6px 10px;
+}
+
+.circle-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.contact-btn {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: #2563eb;
+}
+
+.footerr {
+  margin-top: 67px;
+}
+
+.footerr p {
+  margin: 0px !important;
+  justify-content: center;
+  display: flex;
+}
+
+/* Popup Overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* Popup Box */
+.popup-form {
+  background: #fff;
+  width: 420px;
+  padding: 30px;
+  border-radius: 12px;
+  position: relative;
+  animation: popupFade 0.3s ease;
+}
+
+@keyframes popupFade {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Form */
+.popup-form h2 {
+  margin-bottom: 5px;
+}
+
+.popup-form p {
+  font-size: 18px;
+  color: #4f46e5;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.popup-form input,
+.popup-form textarea {
+  width: 94%;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.popup-form textarea {
+  resize: none;
+  height: 90px;
+}
+
+.popup-form button {
+  width: 100%;
+  background: #4f46e5;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.project-details {
+  overflow-y: auto;
+  height: 189px;
+}
+
+.hero-section {
+  margin-left: 210px;
+  padding: 40px;
+  padding-bottom: 10px;
+  width: 100%;
+}

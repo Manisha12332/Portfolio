@@ -1,0 +1,12 @@
+.app-layout {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 210px; /* Equal to sidebar width */
+  padding: 40px;
+  width: calc(100% - 210px);
+  background-color: #ffffff;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
