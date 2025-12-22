@@ -2,7 +2,7 @@ import React from "react";
 import profileImg from "../assets/images/pro.jpeg";
 import { NavLink } from "react-router-dom";
 
-import "./css/Sidebar.css";      // change CSS to css
+import './css/Sidebar.css'
 import "./css/Responsive.css";
 
 const Sidebar = ({ showMenu, setShowMenu }) => {
